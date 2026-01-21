@@ -1,9 +1,9 @@
 @media screen and (max-width:576px) {
 
-    /* navbar section  */
-    .logo-section h2{
+/* navbar section  */
+.logo-section h2{
         font-size: 1.8rem;
-    }
+}
 
     .navbar-container i{
     display: block;
@@ -29,6 +29,7 @@
     color: #ffffffce;
     width: 340px;
     margin-bottom: -5px;
+    width: 304px;
 }
 .banner-container form{
     display: flex;
@@ -47,6 +48,7 @@
     flex-direction: column;
     gap: 24px;
     margin-top: 24px;
+    margin-bottom: 0;
 }
 .tour-content {
     width: 380px;
@@ -64,5 +66,40 @@
     width: 100%;
     height: 100%;
 }
+
+
+/* Choose Your Destination section */
+
+.destination-title{
+    width: 309px;
+    margin-top: 24px;
+    gap: 0;
+}
+
+.destination-title h1{
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.destination-title p{
+    font-size: 0.9rem;
+    line-height: 24px;
+}
+
+.destination-place{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.destination-place img{
+    width: 100%;
+    height: 175px;
+}
+.destination-place strong{
+    font-size: 1.25rem;
+}
+
+
 
 }
