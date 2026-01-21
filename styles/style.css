@@ -1,0 +1,22 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.font-mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* mrg-padd */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common style  */
+
+.common-width{
+    width: 90%;
+    max-width: 1178px;
+    margin: 0 auto;
+}
