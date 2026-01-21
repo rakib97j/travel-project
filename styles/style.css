@@ -21,7 +21,15 @@
     margin: 0 auto;
 }
 
-
+.btn{
+    padding: 14px 35px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 
 /* navbar style section */
@@ -65,4 +73,61 @@
 
 /* banner/hero section style */
 
+.banner-container{
+    margin-top: 25px;
+}
 
+.banner-content{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.715), rgba(48, 44, 44, 0.14)) ,url("../images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-title > h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.banner-title > p{
+    max-width: 667px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.banner-container form{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdfdfd3f;
+    padding: 16px;
+    border-radius: 8px; 
+    max-width: 800px;
+    width: 59%;
+}
+.banner-container input ,select{
+    border-radius: 8px;
+    padding: 0 12px;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.banner-container select{
+    color: #13131883;
+    
+}

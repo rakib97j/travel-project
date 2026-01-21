@@ -1,0 +1,43 @@
+@media screen and (max-width:576px) {
+
+    /* navbar section  */
+    .logo-section h2{
+        font-size: 1.8rem;
+    }
+
+    .navbar-container i{
+    display: block;
+}
+.navbar-container ul{
+    display: none;
+}
+
+/* banner section  */
+
+.banner-container{
+    margin-top: 0px;
+}
+
+.banner-title > h1{
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.banner-title > p{
+    font-size: 0.9rem;
+    line-height: 21px;
+    color: #ffffffce;
+    width: 340px;
+    margin-bottom: -5px;
+}
+.banner-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.banner-container input ,select{
+    border-radius: 8px;
+    padding: 20px 12px;
+}
+
+}
