@@ -131,3 +131,44 @@
     color: #13131883;
     
 }
+
+
+/* Our Popular Tours section */
+
+.tour-container{
+    display: flex;
+    margin: 100px 0;
+    gap: 53px;
+}
+
+
+.tour-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 577px;
+}
+
+.tour-content h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #131318;
+}
+.tour-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #131318bd;
+    line-height: 26px;
+}
+.tour-content ul{
+    width: 500px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #131318bd;
+    margin-bottom: 26px;
+}
