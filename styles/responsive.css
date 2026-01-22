@@ -100,6 +100,24 @@
     font-size: 1.25rem;
 }
 
+/* Why Choose Us section  */
+.choose-us-container{
+    margin-bottom: 24px;
+}
 
+.choose-us-title{
+    width: 309px;
+}
 
+.choose-us-card-box{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 290px;
+    margin: 0 auto;
+}
+.choose-us-title p{
+    margin-bottom: 16px;
+}
 }
